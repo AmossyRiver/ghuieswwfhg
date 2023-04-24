@@ -1,0 +1,98 @@
+.main{
+    background-color: #ffffff;
+    overflow: hidden;
+    position: fixed;
+    display: flex ;
+    align-content: center;
+    top: 40rem;
+}
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+.c-box{
+    width: 70%;
+    margin: 30px 30px;
+    padding: 0 20px;
+    display: block;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    color: #fd2d39;
+}
+
+.c-box h1{
+    font-family: "Microsoft YaHei", sans-serif;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #000000;
+}
+.t-box{
+    width: 70%;
+    margin: 30px 30px;
+    padding: 0 20px;
+    display: block;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    color: #fd2d39;
+}
+
+.t-box h1{
+    font-family: "Microsoft YaHei", sans-serif;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #000000;
+}
+.b-box{
+    width: 70%;
+    margin: 30px 30px;
+    padding: 0 20px;
+    display: block;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    color: #fd2d39;
+}
+
+.b-box h1{
+    font-family: "Microsoft YaHei", sans-serif;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #000000;
+}
+.l-box{
+    width: 70%;
+    margin: 30px 30px;
+    padding: 0 20px;
+    display: block;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    color: #fd2d39;
+}
+
+.l-box h1{
+    font-family: "Microsoft YaHei", sans-serif;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #000000;
+}
+.back-button i{
+    font-size: 30px;
+    color: #fd2d39;
+    margin: 0 10px;
+}

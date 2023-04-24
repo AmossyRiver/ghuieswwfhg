@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="home.css">
+<head>
+  <script src="https://kit.fontawesome.com/758311ea8b.js" crossorigin="anonymous"></script>
+  <meta charset="UTF-8">
+  <title>Health Advice Group</title>
+</head>
+<body>
+<nav class = "navigation-bar">
+  <ul class="list-items">
+    <span class="pointer"></span>
+    <li class="item">
+      <a class="link" href="air.php">
+        <i class="fa-solid fa-wind"></i>
+      </a>
+    </li>
+    <li class="item">
+      <a class="link" href="weather.php">
+        <i class="fa-solid fa-cloud"></i>
+      </a>
+    </li>
+    <li class="item">
+      <a class="link" href="home.php">
+        <i class="fa-solid fa-house"></i>
+      </a>
+    </li>
+    <li class="item">
+      <a class="link" href="fitness.php">
+        <i class="fa-solid fa-heart-pulse"></i>
+      </a>
+    </li>
+    <li class="item active">
+      <a class="link" href="archive.html">
+        <i class="fa-solid fa-box-archive"></i>
+      </a>
+    </li>
+  </ul>
+</nav>
+<script src="Navigation Bar.js"></script>
+<script>
+  var links = document.querySelectorAll('a');
+  links.forEach(function(link) {
+    link.addEventListener('click', function(e) {
+      var href = this.getAttribute('href');
+      if (href === "#") {
+        e.preventDefault();
+      }
+      else {
+        e.preventDefault();
+        window.location.href = href;
+      }
+    });
+
+  });
+
+</script>
+<img class="logo" src="logo.png" alt="logo" width="890" height="50">
+<div class="topnav">
+
+  <a href="account.php">
+    <i class="fa-solid fa-user"></i>
+  </a>
+  <a href="settings.php">
+    <i class="fa-solid fa-cog"></i>
+  </a>
+</div>
+  <div class="main">
+
+    <div class = "boxes">
+      <br>
+      <div class = "c-box">
+        <h1>Hay-fever facts</h1>
+      </div>
+      <div class = "t-box">
+        <h1>Ways to stay safe in winter</h1>
+      </div>
+      <div class = "l-box">
+        <h1>Top 10 tips to help with Allergies</h1>
+      </div>
+      <div class = "b-box">
+        <h1>5 Ways to combat Chronic Pain</h1>
+      </div>
+      </div>
+    </div>
+</body>
+</html>

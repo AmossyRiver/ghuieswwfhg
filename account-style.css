@@ -1,0 +1,159 @@
+body{
+    overflow: hidden;
+}
+.back-button a i {
+    color: #ef0511;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+// edit the following css to move the navigation bar to the bottom of the page
+
+.main {
+    margin-left: 70px; /* Same as the width of the sidenav */
+    font-family: "Segoe UI", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ffffff;
+    transition: 0.5s;
+}
+.main.active{
+    background: #ffffff;
+}
+.login-container{
+    position: relative;
+    width: 800px;
+    height: 500px;
+    margin: 75px;
+    bottom: -50rem;
+
+}
+.bluebg{
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:rgba(255,255,255,0.2);
+    box-shadow: 0 5px 45px rgba(0,0,0,0.15);
+}
+.bluebg .box{
+    position: relative;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.bluebg .box h2{
+    color: #ef0511;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-bottom: 10px ;
+}
+.bluebg .box.active h2{
+    color: #fd2d39;
+}
+.bluebg .box button{
+    cursor: pointer;
+    padding: 10px 20px;
+    background: #ef0511;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+
+}
+.bluebg .box.active button{
+    background: #fd2d39;
+}
+
+.formBx{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: #ef0511;
+    z-index: 1000;
+    justify-content: center;
+    align-items: center;
+    box-shadow:0 5px 45px rgba(0,0,0,0.25);
+    transition: 0.5s ease-in-out;
+    overflow: hidden;
+
+}
+.formBx.active {
+    left: 50%;
+    background: #fd2d39;
+}
+.formBx .form{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 50px;
+    transition: 0.5s;
+    box-sizing: border-box;
+}
+.formBx .sign-inform{
+    transition-delay: 0.25s;
+}
+.formBx.active .sign-inform{
+    left:-100%;
+    transition-delay: 0s;
+}
+.formBx .sign-upform {
+    left:100%;
+    transition-delay: 0s;
+}
+.formBx.active .sign-upform {
+    left: 0;
+    transition-delay: 0.25s;
+}
+.formBx .form form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.formBx .form form h3{
+    font-size: 1.5em;
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.formBx .form form input {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+    border: 1px solid #333;
+}
+.formBx .form form input[type="submit"]{
+    background:#ffffff;
+    border: none;
+    color: #ef0511;
+    max-width: 100px;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    outline: none;
+    font-size: 16px;
+    border: 1px solid #333;
+}
+.formBx.active .form form input[type="submit"]{
+    color: #fd757c;
+}
+.formBx .form form .forgot{
+    color: #ffffff;
+}
+
+/*body{
+    filter: blur(2px)
+}*/

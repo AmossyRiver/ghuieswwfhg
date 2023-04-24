@@ -1,0 +1,234 @@
+:root {
+    --main-color: #ff767d;
+    --second-color: #acb8c1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation-bar {
+    background: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    Bottom: 20px;
+    display: flex;
+    align-items: center;
+
+}
+.navigation-bar .list-items {
+    list-style: none;
+    display: flex;
+    position: relative;
+}
+
+
+.navigation-bar .list-items .item {
+    flex: 1 1 0px;
+    position: relative;
+    z-index: 2;
+}
+.navigation-bar .list-items .item .link {
+    display: inline-block;
+    height: 8rem;
+    width: 9rem;
+    line-height: 4.5;
+    text-align: center;
+    color: var(--second-color);
+}
+.navigation-bar .list-items .item.active .link {
+    color: var(--main-color);
+}
+
+.navigation-bar .list-items .item .link i {
+    font-size: 4rem;
+    transition: font-size 0.2s linear;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 2rem;
+}
+.navigation-bar .list-items .item.active .link i {
+    font-size: 3.8rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 2rem ;
+}
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+    position: fixed;
+    display: flex ;
+    top: 0;
+    right: 0;
+
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color: #f11010;
+    text-align: center;
+    padding-top: 14px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 14px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+.c-box{
+    width: 70%;
+    margin: 30px 30px;
+    padding: 0 20px;
+    display: block;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    color: #fd2d39;
+}
+
+.c-box h1{
+    font-family: "Microsoft YaHei", sans-serif;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #000000;
+}
+.t-box{
+    width: 70%;
+    margin: 30px 30px;
+    padding: 0 20px;
+    display: block;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    color: #fd2d39;
+}
+
+.t-box h1{
+    font-family: "Microsoft YaHei", sans-serif;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #000000;
+}
+.b-box{
+    width: 70%;
+    margin: 30px 30px;
+    padding: 0 20px;
+    display: block;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    color: #fd2d39;
+}
+
+.b-box h1{
+    font-family: "Microsoft YaHei", sans-serif;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #000000;
+}
+.l-box{
+    width: 70%;
+    margin: 30px 30px;
+    padding: 0 20px;
+    display: block;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    color: #fd2d39;
+}
+
+.l-box h1{
+    font-family: "Microsoft YaHei", sans-serif;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #000000;
+}
+.widget {
+    height: 100%;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    color: #fd2d39;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+    margin: 30px 30px;
+}
+.widget:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+}
+.widget h1 {
+    font-family: "Microsoft YaHei", sans-serif;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #000000;
+}
+.widget p {
+    font-family: "Microsoft YaHei", sans-serif;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #000000;
+}
+.widget .icon {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #fd2d39;
+}
+.widget .icon i {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: #fd2d39;
+}
+.widget .icon i:hover {
+    color: #000000;
+}
+.widget .icon i:active {
+    color: #000000;
+}

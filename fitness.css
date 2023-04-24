@@ -1,0 +1,216 @@
+:root {
+    --main-color: #ff767d;
+    --second-color: #acb8c1;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navigation-bar {
+    background: #fff;
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    Bottom: 20px;
+    display: flex;
+    align-items: center;
+
+}
+.navigation-bar .list-items {
+    list-style: none;
+    display: flex;
+    position: relative;
+}
+
+
+.navigation-bar .list-items .item {
+    flex: 1 1 0px;
+    position: relative;
+    z-index: 2;
+}
+.navigation-bar .list-items .item .link {
+    display: inline-block;
+    height: 8rem;
+    width: 9rem;
+    line-height: 4.5;
+    text-align: center;
+    color: var(--second-color);
+}
+.navigation-bar .list-items .item.active .link {
+    color: var(--main-color);
+}
+
+.navigation-bar .list-items .item .link i {
+    font-size: 4rem;
+    transition: font-size 0.2s linear;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 2rem;
+}
+.navigation-bar .list-items .item.active .link i {
+    font-size: 3.8rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 2rem ;
+}
+.logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.topnav {
+    background-color: #ffffff;
+    overflow: hidden;
+    position: fixed;
+    display: flex ;
+    top: 0;
+    right: 0;
+
+}
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: right;
+    color: #f11010;
+    text-align: center;
+    padding-top: 14px;
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 14px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.btn{
+    position: relative;
+}
+
+.circle-goal{
+    left: 15rem;
+    position: relative;
+    margin: 80px;
+    width: 300px;
+    height: 300px;
+}
+
+canvas {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+span {
+    color: #2F9AFF;
+    display: block;
+    line-height: 300px;
+    text-align: center;
+    width: 300px;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 100;
+    margin-left: 5px;
+}
+
+
+
+span {}
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+.steps-box{
+    width: 50%;
+    margin: 30px 30px;
+    padding: 0 20px;
+    display: block;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    color: #2F9AFF;
+}
+.steps-box i{
+    font-size: 7.5rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #2F9AFF;
+}
+.steps-box h1{
+    font-family: "Microsoft YaHei", sans-serif;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #000000;
+}
+.calories-box{
+    width: 50%;
+    margin: 30px 30px;
+    padding: 0 20px;
+    display: block;
+    text-align: center;
+    border-radius: 15px;
+    background-color: #ffffff;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    color: #2F9AFF;
+}
+.calories-box i{
+    font-size: 7.5rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #2F9AFF;
+}
+.calories-box h1{
+    font-family: "Microsoft YaHei", sans-serif;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #000000;
+}
+.km-box{
+     width: 50%;
+     margin: 30px 30px;
+     padding: 0 20px;
+     display: block;
+     text-align: center;
+     border-radius: 15px;
+     background-color: #ffffff;
+     box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+     color: #2F9AFF;
+ }
+.km-box i{
+    font-size: 7.5rem;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #2F9AFF;
+}
+.km-box h1{
+    font-family: "Microsoft YaHei", sans-serif;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: #000000;
+}
