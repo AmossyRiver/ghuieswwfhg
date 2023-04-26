@@ -81,10 +81,11 @@
     }
 
 
+
     session_start();
-    $servername = "localhost";
-    $username = "root";
-    $password = "";
+    $servername="healthadvicegroup.mysql.database.azure.com";
+    $username="rooot";
+    $password="Password1";
     $dbname = "healthadvicegroup";
 
     $conn = mysqli_connect($servername, $username, $password, $dbname);
