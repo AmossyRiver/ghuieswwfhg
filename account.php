@@ -9,7 +9,7 @@
 <body style=" background-color: #ffffff">
 <link rel="stylesheet" href="account-style.css">
 <div class="back-button">
-    <a href="home.php">
+    <a href="index.php">
         <i class="fa-solid fa-arrow-left"></i>
     </a>
 </div>

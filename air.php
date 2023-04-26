@@ -23,7 +23,7 @@ error_reporting(0)
             </a>
         </li>
         <li class="item">
-            <a class="link" href="home.php">
+            <a class="link" href="index.php">
                 <i class="fa-solid fa-house"></i>
             </a>
         </li>

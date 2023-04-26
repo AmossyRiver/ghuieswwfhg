@@ -8,7 +8,7 @@
 </head>
 <body>
 <div class="back-button">
-    <a href="home.php">
+    <a href="index.php">
         <i class="fa-solid fa-arrow-left"></i>
     </a>
 </div>
